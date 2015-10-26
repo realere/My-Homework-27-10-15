@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Salon</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<%= link_to "HOME", root_path %>
+<%= link_to "HAIR", hair_path %>
+<%= link_to "MAKE UP", makeup_path %>
+<%= link_to "SPA", spa_path %>
+
+<%= yield %>
+
+</body>
+</html>
