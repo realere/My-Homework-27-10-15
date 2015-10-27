@@ -16,6 +16,7 @@
 
 body {
   background-color: #7b8f8e;
+  font-family: Hel
 }
 
 #container {
@@ -38,8 +39,26 @@ body {
 }
 #nav {
   width: 180px;
+
 }
+
 
 #main {
   width: 600px;
+  float: right;
+}
+
+#footer {
+  clear: both;
+}
+#sidebar {
+  float: left;
+  font: bold;
+}
+#nav ul {
+  list-style-type: square;
+}
+
+h1{
+  margin: 0;
 }
